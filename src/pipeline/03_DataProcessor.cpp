@@ -118,7 +118,11 @@ void DataProcessor::processData(const std::string& serialNumber, const FrameData
         if (want(hand.handType))
             current.insert(hand.handType);
     }
-    std::set<std::string>& prev = lastSeenHandsPerDevice_[alias];
+    std::set<std::string> prev;
+    {
+        std::lock_guard<std::mutex> lock(lastSeenHandsMutex_);
+        prev = lastSeenHandsPerDevice_[alias];
+    }
     if (prev.count("left") && !current.count("left"))  sendZeroValues(serialNumber, alias, "left");
     if (prev.count("right") && !current.count("right")) sendZeroValues(serialNumber, alias, "right");
     prev.swap(current); // store for next frame

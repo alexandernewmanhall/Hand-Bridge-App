@@ -1,6 +1,10 @@
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "winmm.lib")
 #pragma comment(lib, "shell32.lib") // Needed for Shell_NotifyIcon
+#pragma comment(lib, "Dbghelp.lib") // Needed for crash dump generation
+
+// Crash dump handler
+#include "CrashDumpHandler.h"
 
 // Include our warning suppression header first
 #include "SuppressWarnings.h"
@@ -86,6 +90,7 @@ void ToggleMainWindowVisibility(HWND hWndHidden, ServiceLocator& locator);
 
 // === Application Entry Point ===
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
+    EnableCrashDumps(); // Register crash dump handler immediately
     g_hInstance = hInstance;
 
     // +++ Initialize Service Locator +++

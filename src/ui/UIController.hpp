@@ -97,22 +97,22 @@ private:
     // REMOVED filterSettingsChangedCallback_
 
     // Internal state for OSC filters (Reverted)
-    bool sendPalm_ = true;
-    bool sendWrist_ = true;
-    bool sendThumb_ = true;
-    bool sendIndex_ = true;
-    bool sendMiddle_ = true;
-    bool sendRing_ = true;
-    bool sendPinky_ = true;
-    bool sendPalmOrientation_ = false; // Added back old filters
-    bool sendPalmVelocity_ = false;
-    bool sendPalmNormal_ = false;
-    bool sendVisibleTime_ = false;
-    bool sendFingerIsExtended_ = false;
+    std::atomic<bool> sendPalm_{true};
+    std::atomic<bool> sendWrist_{true};
+    std::atomic<bool> sendThumb_{true};
+    std::atomic<bool> sendIndex_{true};
+    std::atomic<bool> sendMiddle_{true};
+    std::atomic<bool> sendRing_{true};
+    std::atomic<bool> sendPinky_{true};
+    std::atomic<bool> sendPalmOrientation_{false}; // Added back old filters
+    std::atomic<bool> sendPalmVelocity_{false};
+    std::atomic<bool> sendPalmNormal_{false};
+    std::atomic<bool> sendVisibleTime_{false};
+    std::atomic<bool> sendFingerIsExtended_{false};
     // REMOVED sendPinchStrength_ -> ADDED sendPinchStrength_
     // REMOVED sendGrabStrength_ -> ADDED sendGrabStrength_
-    bool sendPinchStrength_ = true; // Added back, default true
-    bool sendGrabStrength_ = true;  // Added back, default true
+    std::atomic<bool> sendPinchStrength_{true}; // Added back, default true
+    std::atomic<bool> sendGrabStrength_{true};  // Added back, default true
 
     // Internal state for OSC destination editing
     char oscIpBuffer_[OSC_IP_BUFFER_SIZE] = {0}; 

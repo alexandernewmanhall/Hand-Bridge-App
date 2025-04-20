@@ -274,6 +274,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     // --- Initialize MainAppWindow (should be created hidden now) ---
     logger->log("Initializing MainAppWindow (UI Manager)...");
     if (!uiManager->init("Leap Motion App", 1280, 800)) {
+    // Enable v-sync to cap GUI rendering to monitor refresh rate
+    SDL_GL_SetSwapInterval(1);
         logger->log("ERROR: Failed to initialize MainAppWindow (SDL window)!");
         MessageBoxW(NULL, L"Failed to create main window!", L"Window Error", MB_ICONEXCLAMATION | MB_OK);
         // Clean up tray icon etc. on failure

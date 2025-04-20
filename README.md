@@ -28,7 +28,7 @@ LeapApp is a modular hand tracking application using Leap Motion. It processes h
 *   **Device Alias Management:** Assigns short, persistent aliases (e.g., `dev1`, `dev2`) to device serial numbers for user-friendly OSC addresses and configuration.
 *   **Hand Assignment:** Allows assigning devices to logical "LEFT" or "RIGHT" hands (multiple devices can share the same assignment).
 *   **System Tray Integration (Windows):** Runs minimized in the system tray with options to open/hide the control panel or exit.
-*   **Configuration File:** Persists settings (OSC target, filters, aliases, hand assignments) in `config.json` located in `%LOCALAPPDATA%\LeapApp\`.
+*   **Configuration File:** Persists settings (OSC target, filters, aliases, hand assignments) in `config.json` located in `%LOCALAPPDATA%\Hand Bridge\`.
 *   **Graphical User Interface:** Provides a control panel (built with SDL2, OpenGL, and ImGui) to monitor devices, configure settings (OSC Target, Filters, Hand Assignments), and view status messages.
 *   **Modular Architecture:** Uses dependency injection, interfaces, and distinct pipeline stages for maintainability and testability.
 *   **Unit Tests:** Includes unit tests (Google Test) for core components.
@@ -38,7 +38,7 @@ LeapApp is a modular hand tracking application using Leap Motion. It processes h
 
 ## Configuration (`config.json`)
 
-The application saves its settings to `config.json` in `%LOCALAPPDATA%\LeapApp\`.
+The application saves its settings to `config.json` in `%LOCALAPPDATA%\Hand Bridge\`.
 
 **Example Structure:**
 
@@ -787,8 +787,8 @@ flowchart TD
 ```
 
 ### Relevant Files and Structures
-- [`src/pipeline/01_LeapPoller.cpp`](./leapMotionApp/src/pipeline/01_LeapPoller.cpp): Implements device polling, mapping, and event routing.
-- [`src/pipeline/01_LeapPoller.hpp`](./leapMotionApp/src/pipeline/01_LeapPoller.hpp): Defines `DeviceInfo` struct and device management logic.
+- [`src/pipeline/01_LeapPoller.cpp`](./src/pipeline/01_LeapPoller.cpp): Implements device polling, mapping, and event routing.
+- [`src/pipeline/01_LeapPoller.hpp`](./src/pipeline/01_LeapPoller.hpp): Defines `DeviceInfo` struct and device management logic.
 - **LeapC API headers**: (`LeapC.h`) for device and event definitions.
 
 ### Best Practices and Maintenance
@@ -826,7 +826,7 @@ This document provides an in-depth overview of the LeapApp project architecture,
 - **Dependency Injection**: Logic layers are connected via explicit callbacks, making testing and substitution easy.
 - **Modularity**: Each numbered pipeline component can be developed, tested, or replaced independently.
 - **GUI Integration**: The ImGui-based interface allows real-time control of device assignments and OSC output filtering. It receives device status updates (connected/disconnected/assigned hand) from the core application logic.
-- **Configuration**: Settings (OSC endpoint, hand assignments, filters) are persisted in `%LOCALAPPDATA%\LeapApp\config.json`.
+- **Configuration**: Settings (OSC endpoint, hand assignments, filters) are persisted in `%LOCALAPPDATA%\Hand Bridge\config.json`.
 
 ---
 

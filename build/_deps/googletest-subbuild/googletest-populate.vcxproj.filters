@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\49e4d3756beab2a1e7914ab75a4d5089\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\49e4d3756beab2a1e7914ab75a4d5089\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\49e4d3756beab2a1e7914ab75a4d5089\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\49e4d3756beab2a1e7914ab75a4d5089\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\49e4d3756beab2a1e7914ab75a4d5089\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\49e4d3756beab2a1e7914ab75a4d5089\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\49e4d3756beab2a1e7914ab75a4d5089\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\49e4d3756beab2a1e7914ab75a4d5089\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\a8e82d33b670b5276259ae94d8516f7d\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\755293437e73fb30121a1730c1c435e0\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1F9CC70F-A0A9-3CEE-996D-B8122A7AD6C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/sdl2-populate.dir
+D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/ZERO_CHECK.dir

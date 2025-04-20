@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/sdl2-populate"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/5a64d9644380db4e8b0dbcfd416c9b51/sdl2-populate.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/ec9c9f28f53d8b3a6a2664e0b4114b71/sdl2-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/f5a1402e110f18e7bebc009962b94467/sdl2-populate-build.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/f5a1402e110f18e7bebc009962b94467/sdl2-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/f5a1402e110f18e7bebc009962b94467/sdl2-populate-download.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/f5a1402e110f18e7bebc009962b94467/sdl2-populate-install.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/f5a1402e110f18e7bebc009962b94467/sdl2-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/f5a1402e110f18e7bebc009962b94467/sdl2-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/f5a1402e110f18e7bebc009962b94467/sdl2-populate-test.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-subbuild/CMakeFiles/f5a1402e110f18e7bebc009962b94467/sdl2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl2-populate"
+		],
+		"name" : "sdl2-populate"
+	}
+}

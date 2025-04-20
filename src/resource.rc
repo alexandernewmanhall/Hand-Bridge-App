@@ -1,0 +1,12 @@
+// Include Windows headers required by resource files
+#include <windows.h>
+
+// Include our resource ID definitions
+#include "resource.h"
+
+// Icon
+// Make sure the path uses double backslashes or forward slashes
+// The path provided was: D:\Desktop\Leap Motion App\leapMotionApp\assets\dexteraICO.ico
+// Relative path from src/ might be: ..\assets\dexteraICO.ico
+// Using absolute path for robustness here, ensure this icon exists.
+IDI_APPICON ICON "..\\assets\\dexteraICO.ico"

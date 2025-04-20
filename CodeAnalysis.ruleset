@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="LeapMotionApp Rules" Description="Custom rule set for LeapMotionApp to suppress specific warnings." ToolsVersion="17.0">
+  <Rules AnalyzerId="Microsoft.Analyzers.NativeCodeAnalysis" RuleNamespace="Microsoft.Rules.Native">
+    <!-- Suppress C6031: Return value ignored: 'sscanf' -->
+    <Rule Id="C6031" Action="None" />
+    
+    <!-- Suppress C26819: Unannotated fallthrough between switch labels -->  
+    <Rule Id="C26819" Action="None" />
+  </Rules>
+</RuleSet> 

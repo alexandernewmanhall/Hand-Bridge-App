@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\sdl2-subbuild\CMakeFiles\5a64d9644380db4e8b0dbcfd416c9b51\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CEEC02DE-8C1B-38D2-BE68-94741E6320EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

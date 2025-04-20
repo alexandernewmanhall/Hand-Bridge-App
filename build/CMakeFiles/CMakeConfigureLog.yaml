@@ -1,0 +1,1690 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/20/2025 2:10:46 PM.
+      
+      Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\3.31.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\3.31.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\3.31.2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.29
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/3.31.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 4/20/2025 2:10:46 PM.
+      
+      Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\3.31.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\3.31.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\3.31.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.29
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/3.31.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-ycyyyi"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-ycyyyi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-ycyyyi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_73e23.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:10:47 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyyyi\\cmTC_73e23.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_73e23.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyyyi\\Debug\\".
+          Creating directory "cmTC_73e23.dir\\Debug\\cmTC_73e23.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_73e23.dir\\Debug\\cmTC_73e23.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_73e23.dir\\Debug\\cmTC_73e23.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73e23.dir\\Debug\\\\" /Fd"cmTC_73e23.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73e23.dir\\Debug\\\\" /Fd"cmTC_73e23.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyyyi\\Debug\\cmTC_73e23.exe" /INCREMENTAL /ILK:"cmTC_73e23.dir\\Debug\\cmTC_73e23.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-ycyyyi/Debug/cmTC_73e23.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-ycyyyi/Debug/cmTC_73e23.lib" /MACHINE:X64  /machine:x64 cmTC_73e23.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_73e23.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyyyi\\Debug\\cmTC_73e23.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_73e23.dir\\Debug\\cmTC_73e23.tlog\\unsuccessfulbuild".
+          Touching "cmTC_73e23.dir\\Debug\\cmTC_73e23.tlog\\cmTC_73e23.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyyyi\\cmTC_73e23.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34810.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-adir90"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-adir90"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-adir90'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_48830.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:10:47 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-adir90\\cmTC_48830.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_48830.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-adir90\\Debug\\".
+          Creating directory "cmTC_48830.dir\\Debug\\cmTC_48830.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_48830.dir\\Debug\\cmTC_48830.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_48830.dir\\Debug\\cmTC_48830.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_48830.dir\\Debug\\\\" /Fd"cmTC_48830.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_48830.dir\\Debug\\\\" /Fd"cmTC_48830.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-adir90\\Debug\\cmTC_48830.exe" /INCREMENTAL /ILK:"cmTC_48830.dir\\Debug\\cmTC_48830.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-adir90/Debug/cmTC_48830.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-adir90/Debug/cmTC_48830.lib" /MACHINE:X64  /machine:x64 cmTC_48830.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_48830.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-adir90\\Debug\\cmTC_48830.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_48830.dir\\Debug\\cmTC_48830.tlog\\unsuccessfulbuild".
+          Touching "cmTC_48830.dir\\Debug\\cmTC_48830.tlog\\cmTC_48830.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-adir90\\cmTC_48830.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.28
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34810.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-jtt3yi"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-jtt3yi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-jtt3yi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_376c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:00 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtt3yi\\cmTC_376c8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_376c8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtt3yi\\Debug\\".
+          Creating directory "cmTC_376c8.dir\\Debug\\cmTC_376c8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_376c8.dir\\Debug\\cmTC_376c8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_376c8.dir\\Debug\\cmTC_376c8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_376c8.dir\\Debug\\\\" /Fd"cmTC_376c8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtt3yi\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_376c8.dir\\Debug\\\\" /Fd"cmTC_376c8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtt3yi\\src.c"
+          src.c
+        D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtt3yi\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtt3yi\\cmTC_376c8.vcxproj]
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtt3yi\\cmTC_376c8.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtt3yi\\cmTC_376c8.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtt3yi\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jtt3yi\\cmTC_376c8.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.19
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-nq4kxk"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-nq4kxk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-nq4kxk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d47e8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:00 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq4kxk\\cmTC_d47e8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d47e8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq4kxk\\Debug\\".
+          Creating directory "cmTC_d47e8.dir\\Debug\\cmTC_d47e8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d47e8.dir\\Debug\\cmTC_d47e8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d47e8.dir\\Debug\\cmTC_d47e8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d47e8.dir\\Debug\\\\" /Fd"cmTC_d47e8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq4kxk\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d47e8.dir\\Debug\\\\" /Fd"cmTC_d47e8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq4kxk\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq4kxk\\Debug\\cmTC_d47e8.exe" /INCREMENTAL /ILK:"cmTC_d47e8.dir\\Debug\\cmTC_d47e8.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-nq4kxk/Debug/cmTC_d47e8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-nq4kxk/Debug/cmTC_d47e8.lib" /MACHINE:X64  /machine:x64 cmTC_d47e8.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq4kxk\\cmTC_d47e8.vcxproj]
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq4kxk\\cmTC_d47e8.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq4kxk\\cmTC_d47e8.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nq4kxk\\cmTC_d47e8.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:65 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-8jpna1"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-8jpna1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-8jpna1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_20991.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:00 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jpna1\\cmTC_20991.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_20991.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jpna1\\Debug\\".
+          Creating directory "cmTC_20991.dir\\Debug\\cmTC_20991.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_20991.dir\\Debug\\cmTC_20991.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_20991.dir\\Debug\\cmTC_20991.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20991.dir\\Debug\\\\" /Fd"cmTC_20991.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jpna1\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20991.dir\\Debug\\\\" /Fd"cmTC_20991.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jpna1\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jpna1\\Debug\\cmTC_20991.exe" /INCREMENTAL /ILK:"cmTC_20991.dir\\Debug\\cmTC_20991.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-8jpna1/Debug/cmTC_20991.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-8jpna1/Debug/cmTC_20991.lib" /MACHINE:X64  /machine:x64 cmTC_20991.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jpna1\\cmTC_20991.vcxproj]
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jpna1\\cmTC_20991.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jpna1\\cmTC_20991.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8jpna1\\cmTC_20991.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:81 (check_symbol_exists)"
+    checks:
+      - "Looking for __GLIBC__"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-t7o1wl"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-t7o1wl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "LIBC_IS_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-t7o1wl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_745b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:08 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7o1wl\\cmTC_745b5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_745b5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7o1wl\\Debug\\".
+          Creating directory "cmTC_745b5.dir\\Debug\\cmTC_745b5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_745b5.dir\\Debug\\cmTC_745b5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_745b5.dir\\Debug\\cmTC_745b5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_745b5.dir\\Debug\\\\" /Fd"cmTC_745b5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7o1wl\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_745b5.dir\\Debug\\\\" /Fd"cmTC_745b5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7o1wl\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7o1wl\\CheckSymbolExists.c(8,19): error C2065: '__GLIBC__': undeclared identifier [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7o1wl\\cmTC_745b5.vcxproj]
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7o1wl\\cmTC_745b5.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7o1wl\\cmTC_745b5.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7o1wl\\CheckSymbolExists.c(8,19): error C2065: '__GLIBC__': undeclared identifier [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7o1wl\\cmTC_745b5.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.18
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:953 (check_include_file)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-swxjge"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-swxjge"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-swxjge'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a7f45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:08 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-swxjge\\cmTC_a7f45.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a7f45.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-swxjge\\Debug\\".
+          Creating directory "cmTC_a7f45.dir\\Debug\\cmTC_a7f45.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a7f45.dir\\Debug\\cmTC_a7f45.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a7f45.dir\\Debug\\cmTC_a7f45.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7f45.dir\\Debug\\\\" /Fd"cmTC_a7f45.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-swxjge\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7f45.dir\\Debug\\\\" /Fd"cmTC_a7f45.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-swxjge\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-swxjge\\Debug\\cmTC_a7f45.exe" /INCREMENTAL /ILK:"cmTC_a7f45.dir\\Debug\\cmTC_a7f45.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-swxjge/Debug/cmTC_a7f45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-swxjge/Debug/cmTC_a7f45.lib" /MACHINE:X64  /machine:x64 cmTC_a7f45.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a7f45.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-swxjge\\Debug\\cmTC_a7f45.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a7f45.dir\\Debug\\cmTC_a7f45.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a7f45.dir\\Debug\\cmTC_a7f45.tlog\\cmTC_a7f45.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-swxjge\\cmTC_a7f45.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.29
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1103 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-16bpaa"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-16bpaa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-16bpaa'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8b4fb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:09 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16bpaa\\cmTC_8b4fb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8b4fb.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16bpaa\\Debug\\".
+          Creating directory "cmTC_8b4fb.dir\\Debug\\cmTC_8b4fb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8b4fb.dir\\Debug\\cmTC_8b4fb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8b4fb.dir\\Debug\\cmTC_8b4fb.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b4fb.dir\\Debug\\\\" /Fd"cmTC_8b4fb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16bpaa\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b4fb.dir\\Debug\\\\" /Fd"cmTC_8b4fb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16bpaa\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16bpaa\\Debug\\cmTC_8b4fb.exe" /INCREMENTAL /ILK:"cmTC_8b4fb.dir\\Debug\\cmTC_8b4fb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-16bpaa/Debug/cmTC_8b4fb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-16bpaa/Debug/cmTC_8b4fb.lib" /MACHINE:X64  /machine:x64 cmTC_8b4fb.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_8b4fb.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16bpaa\\Debug\\cmTC_8b4fb.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8b4fb.dir\\Debug\\cmTC_8b4fb.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8b4fb.dir\\Debug\\cmTC_8b4fb.tlog\\cmTC_8b4fb.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16bpaa\\cmTC_8b4fb.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1676 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WIN32_CC"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-6e6ccj"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-6e6ccj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_WIN32_CC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-6e6ccj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d23bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:09 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e6ccj\\cmTC_d23bd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d23bd.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e6ccj\\Debug\\".
+          Creating directory "cmTC_d23bd.dir\\Debug\\cmTC_d23bd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d23bd.dir\\Debug\\cmTC_d23bd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d23bd.dir\\Debug\\cmTC_d23bd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d23bd.dir\\Debug\\\\" /Fd"cmTC_d23bd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e6ccj\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d23bd.dir\\Debug\\\\" /Fd"cmTC_d23bd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e6ccj\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e6ccj\\Debug\\cmTC_d23bd.exe" /INCREMENTAL /ILK:"cmTC_d23bd.dir\\Debug\\cmTC_d23bd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-6e6ccj/Debug/cmTC_d23bd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-6e6ccj/Debug/cmTC_d23bd.lib" /MACHINE:X64  /machine:x64 cmTC_d23bd.dir\\Debug\\src.obj
+          cmTC_d23bd.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e6ccj\\Debug\\cmTC_d23bd.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d23bd.dir\\Debug\\cmTC_d23bd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d23bd.dir\\Debug\\cmTC_d23bd.tlog\\cmTC_d23bd.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6e6ccj\\cmTC_d23bd.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1718 (check_include_file)"
+    checks:
+      - "Looking for d3d9.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qbm5tf"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qbm5tf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_D3D_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qbm5tf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c31a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:10 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qbm5tf\\cmTC_c31a4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c31a4.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qbm5tf\\Debug\\".
+          Creating directory "cmTC_c31a4.dir\\Debug\\cmTC_c31a4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c31a4.dir\\Debug\\cmTC_c31a4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c31a4.dir\\Debug\\cmTC_c31a4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c31a4.dir\\Debug\\\\" /Fd"cmTC_c31a4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qbm5tf\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c31a4.dir\\Debug\\\\" /Fd"cmTC_c31a4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qbm5tf\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qbm5tf\\Debug\\cmTC_c31a4.exe" /INCREMENTAL /ILK:"cmTC_c31a4.dir\\Debug\\cmTC_c31a4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qbm5tf/Debug/cmTC_c31a4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qbm5tf/Debug/cmTC_c31a4.lib" /MACHINE:X64  /machine:x64 cmTC_c31a4.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c31a4.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qbm5tf\\Debug\\cmTC_c31a4.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c31a4.dir\\Debug\\cmTC_c31a4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c31a4.dir\\Debug\\cmTC_c31a4.tlog\\cmTC_c31a4.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qbm5tf\\cmTC_c31a4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1719 (check_include_file)"
+    checks:
+      - "Looking for d3d11_1.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-bvr544"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-bvr544"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_D3D11_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-bvr544'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8c6b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:10 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bvr544\\cmTC_8c6b7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8c6b7.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bvr544\\Debug\\".
+          Creating directory "cmTC_8c6b7.dir\\Debug\\cmTC_8c6b7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8c6b7.dir\\Debug\\cmTC_8c6b7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8c6b7.dir\\Debug\\cmTC_8c6b7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c6b7.dir\\Debug\\\\" /Fd"cmTC_8c6b7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bvr544\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c6b7.dir\\Debug\\\\" /Fd"cmTC_8c6b7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bvr544\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bvr544\\Debug\\cmTC_8c6b7.exe" /INCREMENTAL /ILK:"cmTC_8c6b7.dir\\Debug\\cmTC_8c6b7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-bvr544/Debug/cmTC_8c6b7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-bvr544/Debug/cmTC_8c6b7.lib" /MACHINE:X64  /machine:x64 cmTC_8c6b7.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_8c6b7.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bvr544\\Debug\\cmTC_8c6b7.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8c6b7.dir\\Debug\\cmTC_8c6b7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8c6b7.dir\\Debug\\cmTC_8c6b7.tlog\\cmTC_8c6b7.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bvr544\\cmTC_8c6b7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1720 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_D3D12_H"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-kqv5d7"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-kqv5d7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_D3D12_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-kqv5d7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4e13a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:11 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqv5d7\\cmTC_4e13a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4e13a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqv5d7\\Debug\\".
+          Creating directory "cmTC_4e13a.dir\\Debug\\cmTC_4e13a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4e13a.dir\\Debug\\cmTC_4e13a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4e13a.dir\\Debug\\cmTC_4e13a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e13a.dir\\Debug\\\\" /Fd"cmTC_4e13a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqv5d7\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e13a.dir\\Debug\\\\" /Fd"cmTC_4e13a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqv5d7\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqv5d7\\Debug\\cmTC_4e13a.exe" /INCREMENTAL /ILK:"cmTC_4e13a.dir\\Debug\\cmTC_4e13a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-kqv5d7/Debug/cmTC_4e13a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-kqv5d7/Debug/cmTC_4e13a.lib" /MACHINE:X64  /machine:x64 cmTC_4e13a.dir\\Debug\\src.obj
+          cmTC_4e13a.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqv5d7\\Debug\\cmTC_4e13a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4e13a.dir\\Debug\\cmTC_4e13a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4e13a.dir\\Debug\\cmTC_4e13a.tlog\\cmTC_4e13a.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqv5d7\\cmTC_4e13a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1728 (check_include_file)"
+    checks:
+      - "Looking for ddraw.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-ltea8s"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-ltea8s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_DDRAW_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-ltea8s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cc3ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:11 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltea8s\\cmTC_cc3ed.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cc3ed.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltea8s\\Debug\\".
+          Creating directory "cmTC_cc3ed.dir\\Debug\\cmTC_cc3ed.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cc3ed.dir\\Debug\\cmTC_cc3ed.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cc3ed.dir\\Debug\\cmTC_cc3ed.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc3ed.dir\\Debug\\\\" /Fd"cmTC_cc3ed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltea8s\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc3ed.dir\\Debug\\\\" /Fd"cmTC_cc3ed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltea8s\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltea8s\\Debug\\cmTC_cc3ed.exe" /INCREMENTAL /ILK:"cmTC_cc3ed.dir\\Debug\\cmTC_cc3ed.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-ltea8s/Debug/cmTC_cc3ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-ltea8s/Debug/cmTC_cc3ed.lib" /MACHINE:X64  /machine:x64 cmTC_cc3ed.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_cc3ed.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltea8s\\Debug\\cmTC_cc3ed.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_cc3ed.dir\\Debug\\cmTC_cc3ed.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cc3ed.dir\\Debug\\cmTC_cc3ed.tlog\\cmTC_cc3ed.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ltea8s\\cmTC_cc3ed.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1729 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-exkw2e"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-exkw2e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-exkw2e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_841fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:12 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exkw2e\\cmTC_841fe.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_841fe.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exkw2e\\Debug\\".
+          Creating directory "cmTC_841fe.dir\\Debug\\cmTC_841fe.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_841fe.dir\\Debug\\cmTC_841fe.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_841fe.dir\\Debug\\cmTC_841fe.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_841fe.dir\\Debug\\\\" /Fd"cmTC_841fe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exkw2e\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_841fe.dir\\Debug\\\\" /Fd"cmTC_841fe.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exkw2e\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exkw2e\\Debug\\cmTC_841fe.exe" /INCREMENTAL /ILK:"cmTC_841fe.dir\\Debug\\cmTC_841fe.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-exkw2e/Debug/cmTC_841fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-exkw2e/Debug/cmTC_841fe.lib" /MACHINE:X64  /machine:x64 cmTC_841fe.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_841fe.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exkw2e\\Debug\\cmTC_841fe.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_841fe.dir\\Debug\\cmTC_841fe.tlog\\unsuccessfulbuild".
+          Touching "cmTC_841fe.dir\\Debug\\cmTC_841fe.tlog\\cmTC_841fe.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exkw2e\\cmTC_841fe.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1730 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-l1q6gw"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-l1q6gw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_DINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-l1q6gw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80e5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:12 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1q6gw\\cmTC_80e5a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_80e5a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1q6gw\\Debug\\".
+          Creating directory "cmTC_80e5a.dir\\Debug\\cmTC_80e5a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_80e5a.dir\\Debug\\cmTC_80e5a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_80e5a.dir\\Debug\\cmTC_80e5a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80e5a.dir\\Debug\\\\" /Fd"cmTC_80e5a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1q6gw\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80e5a.dir\\Debug\\\\" /Fd"cmTC_80e5a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1q6gw\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+          C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1q6gw\\Debug\\cmTC_80e5a.exe" /INCREMENTAL /ILK:"cmTC_80e5a.dir\\Debug\\cmTC_80e5a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-l1q6gw/Debug/cmTC_80e5a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-l1q6gw/Debug/cmTC_80e5a.lib" /MACHINE:X64  /machine:x64 cmTC_80e5a.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_80e5a.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1q6gw\\Debug\\cmTC_80e5a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_80e5a.dir\\Debug\\cmTC_80e5a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_80e5a.dir\\Debug\\cmTC_80e5a.tlog\\cmTC_80e5a.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l1q6gw\\cmTC_80e5a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1734 (check_include_file)"
+    checks:
+      - "Looking for dxgi.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-16zenw"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-16zenw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_DXGI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-16zenw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_544c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:13 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16zenw\\cmTC_544c7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_544c7.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16zenw\\Debug\\".
+          Creating directory "cmTC_544c7.dir\\Debug\\cmTC_544c7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_544c7.dir\\Debug\\cmTC_544c7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_544c7.dir\\Debug\\cmTC_544c7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_544c7.dir\\Debug\\\\" /Fd"cmTC_544c7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16zenw\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_544c7.dir\\Debug\\\\" /Fd"cmTC_544c7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16zenw\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16zenw\\Debug\\cmTC_544c7.exe" /INCREMENTAL /ILK:"cmTC_544c7.dir\\Debug\\cmTC_544c7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-16zenw/Debug/cmTC_544c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-16zenw/Debug/cmTC_544c7.lib" /MACHINE:X64  /machine:x64 cmTC_544c7.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_544c7.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16zenw\\Debug\\cmTC_544c7.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_544c7.dir\\Debug\\cmTC_544c7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_544c7.dir\\Debug\\cmTC_544c7.tlog\\cmTC_544c7.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16zenw\\cmTC_544c7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1748 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_H"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-9sd1fj"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-9sd1fj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_XINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-9sd1fj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_91c97.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:13 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sd1fj\\cmTC_91c97.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_91c97.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sd1fj\\Debug\\".
+          Creating directory "cmTC_91c97.dir\\Debug\\cmTC_91c97.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_91c97.dir\\Debug\\cmTC_91c97.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_91c97.dir\\Debug\\cmTC_91c97.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91c97.dir\\Debug\\\\" /Fd"cmTC_91c97.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sd1fj\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91c97.dir\\Debug\\\\" /Fd"cmTC_91c97.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sd1fj\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sd1fj\\Debug\\cmTC_91c97.exe" /INCREMENTAL /ILK:"cmTC_91c97.dir\\Debug\\cmTC_91c97.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-9sd1fj/Debug/cmTC_91c97.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-9sd1fj/Debug/cmTC_91c97.lib" /MACHINE:X64  /machine:x64 cmTC_91c97.dir\\Debug\\src.obj
+          cmTC_91c97.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sd1fj\\Debug\\cmTC_91c97.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_91c97.dir\\Debug\\cmTC_91c97.tlog\\unsuccessfulbuild".
+          Touching "cmTC_91c97.dir\\Debug\\cmTC_91c97.tlog\\cmTC_91c97.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9sd1fj\\cmTC_91c97.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1752 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qiz1qu"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qiz1qu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_XINPUT_GAMEPAD_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qiz1qu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_af66d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:14 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\cmTC_af66d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_af66d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\Debug\\".
+          Creating directory "cmTC_af66d.dir\\Debug\\cmTC_af66d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_af66d.dir\\Debug\\cmTC_af66d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_af66d.dir\\Debug\\cmTC_af66d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af66d.dir\\Debug\\\\" /Fd"cmTC_af66d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af66d.dir\\Debug\\\\" /Fd"cmTC_af66d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\src.c"
+          src.c
+        D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\src.c(4,25): error C2061: syntax error: identifier 'x1' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\cmTC_af66d.vcxproj]
+        D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\src.c(4,25): error C2059: syntax error: ';' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\cmTC_af66d.vcxproj]
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\cmTC_af66d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\cmTC_af66d.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\src.c(4,25): error C2061: syntax error: identifier 'x1' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\cmTC_af66d.vcxproj]
+          D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\src.c(4,25): error C2059: syntax error: ';' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qiz1qu\\cmTC_af66d.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1757 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_STATE_EX"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qgsdbo"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qgsdbo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_XINPUT_STATE_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-qgsdbo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e9104.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:14 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\cmTC_e9104.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e9104.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\Debug\\".
+          Creating directory "cmTC_e9104.dir\\Debug\\cmTC_e9104.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e9104.dir\\Debug\\cmTC_e9104.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e9104.dir\\Debug\\cmTC_e9104.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9104.dir\\Debug\\\\" /Fd"cmTC_e9104.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9104.dir\\Debug\\\\" /Fd"cmTC_e9104.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\src.c"
+          src.c
+        D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\src.c(4,23): error C2061: syntax error: identifier 's1' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\cmTC_e9104.vcxproj]
+        D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\src.c(4,23): error C2059: syntax error: ';' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\cmTC_e9104.vcxproj]
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\cmTC_e9104.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\cmTC_e9104.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\src.c(4,23): error C2061: syntax error: identifier 's1' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\cmTC_e9104.vcxproj]
+          D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\src.c(4,23): error C2059: syntax error: ';' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgsdbo\\cmTC_e9104.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1762 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-tngzvc"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-tngzvc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-tngzvc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8ea6a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:14 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tngzvc\\cmTC_8ea6a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8ea6a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tngzvc\\Debug\\".
+          Creating directory "cmTC_8ea6a.dir\\Debug\\cmTC_8ea6a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8ea6a.dir\\Debug\\cmTC_8ea6a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8ea6a.dir\\Debug\\cmTC_8ea6a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8ea6a.dir\\Debug\\\\" /Fd"cmTC_8ea6a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tngzvc\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8ea6a.dir\\Debug\\\\" /Fd"cmTC_8ea6a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tngzvc\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tngzvc\\Debug\\cmTC_8ea6a.exe" /INCREMENTAL /ILK:"cmTC_8ea6a.dir\\Debug\\cmTC_8ea6a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-tngzvc/Debug/cmTC_8ea6a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-tngzvc/Debug/cmTC_8ea6a.lib" /MACHINE:X64  /machine:x64 cmTC_8ea6a.dir\\Debug\\src.obj
+          cmTC_8ea6a.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tngzvc\\Debug\\cmTC_8ea6a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8ea6a.dir\\Debug\\cmTC_8ea6a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8ea6a.dir\\Debug\\cmTC_8ea6a.tlog\\cmTC_8ea6a.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tngzvc\\cmTC_8ea6a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.70
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1770 (check_include_file)"
+    checks:
+      - "Looking for tpcshrd.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-38b47z"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-38b47z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_TPCSHRD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-38b47z'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_05e4b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:15 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38b47z\\cmTC_05e4b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_05e4b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38b47z\\Debug\\".
+          Creating directory "cmTC_05e4b.dir\\Debug\\cmTC_05e4b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_05e4b.dir\\Debug\\cmTC_05e4b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_05e4b.dir\\Debug\\cmTC_05e4b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05e4b.dir\\Debug\\\\" /Fd"cmTC_05e4b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38b47z\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05e4b.dir\\Debug\\\\" /Fd"cmTC_05e4b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38b47z\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38b47z\\Debug\\cmTC_05e4b.exe" /INCREMENTAL /ILK:"cmTC_05e4b.dir\\Debug\\cmTC_05e4b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-38b47z/Debug/cmTC_05e4b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-38b47z/Debug/cmTC_05e4b.lib" /MACHINE:X64  /machine:x64 cmTC_05e4b.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_05e4b.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38b47z\\Debug\\cmTC_05e4b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_05e4b.dir\\Debug\\cmTC_05e4b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_05e4b.dir\\Debug\\cmTC_05e4b.tlog\\cmTC_05e4b.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38b47z\\cmTC_05e4b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1771 (check_include_file)"
+    checks:
+      - "Looking for roapi.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-zfi2c3"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-zfi2c3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_ROAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-zfi2c3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c130a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:16 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfi2c3\\cmTC_c130a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c130a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfi2c3\\Debug\\".
+          Creating directory "cmTC_c130a.dir\\Debug\\cmTC_c130a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c130a.dir\\Debug\\cmTC_c130a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c130a.dir\\Debug\\cmTC_c130a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c130a.dir\\Debug\\\\" /Fd"cmTC_c130a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfi2c3\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c130a.dir\\Debug\\\\" /Fd"cmTC_c130a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfi2c3\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfi2c3\\Debug\\cmTC_c130a.exe" /INCREMENTAL /ILK:"cmTC_c130a.dir\\Debug\\cmTC_c130a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-zfi2c3/Debug/cmTC_c130a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-zfi2c3/Debug/cmTC_c130a.lib" /MACHINE:X64  /machine:x64 cmTC_c130a.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c130a.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfi2c3\\Debug\\cmTC_c130a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c130a.dir\\Debug\\cmTC_c130a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c130a.dir\\Debug\\cmTC_c130a.tlog\\cmTC_c130a.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfi2c3\\cmTC_c130a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1772 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-tmq35f"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-tmq35f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-tmq35f'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a111e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:16 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmq35f\\cmTC_a111e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a111e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmq35f\\Debug\\".
+          Creating directory "cmTC_a111e.dir\\Debug\\cmTC_a111e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a111e.dir\\Debug\\cmTC_a111e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a111e.dir\\Debug\\cmTC_a111e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a111e.dir\\Debug\\\\" /Fd"cmTC_a111e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmq35f\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a111e.dir\\Debug\\\\" /Fd"cmTC_a111e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmq35f\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmq35f\\Debug\\cmTC_a111e.exe" /INCREMENTAL /ILK:"cmTC_a111e.dir\\Debug\\cmTC_a111e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-tmq35f/Debug/cmTC_a111e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-tmq35f/Debug/cmTC_a111e.lib" /MACHINE:X64  /machine:x64 cmTC_a111e.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a111e.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmq35f\\Debug\\cmTC_a111e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a111e.dir\\Debug\\cmTC_a111e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a111e.dir\\Debug\\cmTC_a111e.tlog\\cmTC_a111e.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmq35f\\cmTC_a111e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.40
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1773 (check_include_file)"
+    checks:
+      - "Looking for audioclient.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-85iekd"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-85iekd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_AUDIOCLIENT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-85iekd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a75d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:17 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85iekd\\cmTC_a75d3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a75d3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85iekd\\Debug\\".
+          Creating directory "cmTC_a75d3.dir\\Debug\\cmTC_a75d3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a75d3.dir\\Debug\\cmTC_a75d3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a75d3.dir\\Debug\\cmTC_a75d3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a75d3.dir\\Debug\\\\" /Fd"cmTC_a75d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85iekd\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a75d3.dir\\Debug\\\\" /Fd"cmTC_a75d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85iekd\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85iekd\\Debug\\cmTC_a75d3.exe" /INCREMENTAL /ILK:"cmTC_a75d3.dir\\Debug\\cmTC_a75d3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-85iekd/Debug/cmTC_a75d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-85iekd/Debug/cmTC_a75d3.lib" /MACHINE:X64  /machine:x64 cmTC_a75d3.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a75d3.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85iekd\\Debug\\cmTC_a75d3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a75d3.dir\\Debug\\cmTC_a75d3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a75d3.dir\\Debug\\cmTC_a75d3.tlog\\cmTC_a75d3.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85iekd\\cmTC_a75d3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1774 (check_include_file)"
+    checks:
+      - "Looking for sensorsapi.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-hel2c3"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-hel2c3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_SENSORSAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-hel2c3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c2b6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:17 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hel2c3\\cmTC_c2b6d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c2b6d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hel2c3\\Debug\\".
+          Creating directory "cmTC_c2b6d.dir\\Debug\\cmTC_c2b6d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c2b6d.dir\\Debug\\cmTC_c2b6d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c2b6d.dir\\Debug\\cmTC_c2b6d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2b6d.dir\\Debug\\\\" /Fd"cmTC_c2b6d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hel2c3\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2b6d.dir\\Debug\\\\" /Fd"cmTC_c2b6d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hel2c3\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hel2c3\\Debug\\cmTC_c2b6d.exe" /INCREMENTAL /ILK:"cmTC_c2b6d.dir\\Debug\\cmTC_c2b6d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-hel2c3/Debug/cmTC_c2b6d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-hel2c3/Debug/cmTC_c2b6d.lib" /MACHINE:X64  /machine:x64 cmTC_c2b6d.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c2b6d.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hel2c3\\Debug\\cmTC_c2b6d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c2b6d.dir\\Debug\\cmTC_c2b6d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c2b6d.dir\\Debug\\cmTC_c2b6d.tlog\\cmTC_c2b6d.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hel2c3\\cmTC_c2b6d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:1775 (check_include_file)"
+    checks:
+      - "Looking for shellscalingapi.h"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-a45660"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-a45660"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "HAVE_SHELLSCALINGAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-a45660'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8a2a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:18 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a45660\\cmTC_8a2a9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8a2a9.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a45660\\Debug\\".
+          Creating directory "cmTC_8a2a9.dir\\Debug\\cmTC_8a2a9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8a2a9.dir\\Debug\\cmTC_8a2a9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8a2a9.dir\\Debug\\cmTC_8a2a9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a2a9.dir\\Debug\\\\" /Fd"cmTC_8a2a9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a45660\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a2a9.dir\\Debug\\\\" /Fd"cmTC_8a2a9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a45660\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a45660\\Debug\\cmTC_8a2a9.exe" /INCREMENTAL /ILK:"cmTC_8a2a9.dir\\Debug\\cmTC_8a2a9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-a45660/Debug/cmTC_8a2a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-a45660/Debug/cmTC_8a2a9.lib" /MACHINE:X64  /machine:x64 cmTC_8a2a9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_8a2a9.vcxproj -> D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a45660\\Debug\\cmTC_8a2a9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8a2a9.dir\\Debug\\cmTC_8a2a9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8a2a9.dir\\Debug\\cmTC_8a2a9.tlog\\cmTC_8a2a9.lastbuildstate".
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a45660\\cmTC_8a2a9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:17 (check_c_source_compiles)"
+      - "build/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake:28 (_internal_check_cpu_architecture)"
+      - "build/_deps/sdl2-src/CMakeLists.txt:3287 (check_cpu_architecture)"
+    checks:
+      - "Performing Test CHECK_CPU_ARCHITECTURE_X86"
+    directories:
+      source: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-0dfq1g"
+      binary: "D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-0dfq1g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/sdl2-src/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>DLL"
+    buildResult:
+      variable: "CHECK_CPU_ARCHITECTURE_X86"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Desktop/leapMotionApp/leapMotionApp/build/CMakeFiles/CMakeScratch/TryCompile-0dfq1g'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_070d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 4/20/2025 2:11:18 PM.
+        
+        Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\cmTC_070d6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_070d6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\Debug\\".
+          Creating directory "cmTC_070d6.dir\\Debug\\cmTC_070d6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_070d6.dir\\Debug\\cmTC_070d6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_070d6.dir\\Debug\\cmTC_070d6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_CPU_ARCHITECTURE_X86 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_070d6.dir\\Debug\\\\" /Fd"cmTC_070d6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34810 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_CPU_ARCHITECTURE_X86 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_070d6.dir\\Debug\\\\" /Fd"cmTC_070d6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\src.c"
+          src.c
+        D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\src.c(6,3): error C2065: 'choke': undeclared identifier [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\cmTC_070d6.vcxproj]
+        D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\src.c(8,1): error C2143: syntax error: missing ';' before '}' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\cmTC_070d6.vcxproj]
+        Done Building Project "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\cmTC_070d6.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\cmTC_070d6.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\src.c(6,3): error C2065: 'choke': undeclared identifier [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\cmTC_070d6.vcxproj]
+          D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\src.c(8,1): error C2143: syntax error: missing ';' before '}' [D:\\Desktop\\leapMotionApp\\leapMotionApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0dfq1g\\cmTC_070d6.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:00.17
+        
+      exitCode: 1
+...

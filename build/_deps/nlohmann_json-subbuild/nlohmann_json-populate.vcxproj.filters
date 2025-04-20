@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\3f73b29333185f6e8b64580a506f2422\nlohmann_json-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\3f73b29333185f6e8b64580a506f2422\nlohmann_json-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\3f73b29333185f6e8b64580a506f2422\nlohmann_json-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\3f73b29333185f6e8b64580a506f2422\nlohmann_json-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\3f73b29333185f6e8b64580a506f2422\nlohmann_json-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\3f73b29333185f6e8b64580a506f2422\nlohmann_json-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\3f73b29333185f6e8b64580a506f2422\nlohmann_json-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\3f73b29333185f6e8b64580a506f2422\nlohmann_json-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\9cd3dc5eba1ccad91b8a73a9bf7b3b0e\nlohmann_json-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\a6bc7b726430e93bf70d602c4dedb511\nlohmann_json-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Desktop\leapMotionApp\leapMotionApp\build\_deps\nlohmann_json-subbuild\CMakeFiles\nlohmann_json-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{26789698-1A83-3602-A49C-1E4736E60D22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

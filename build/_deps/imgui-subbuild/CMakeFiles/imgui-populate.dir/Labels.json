@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/24cd1719e5644d61fb83bc9ce23527d8/imgui-populate.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/c7679a0d719a6b7f218f01c93a2723f7/imgui-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/40bb0a52ee1bc02f0e1b8f9cf9270bd3/imgui-populate-build.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/40bb0a52ee1bc02f0e1b8f9cf9270bd3/imgui-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/40bb0a52ee1bc02f0e1b8f9cf9270bd3/imgui-populate-download.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/40bb0a52ee1bc02f0e1b8f9cf9270bd3/imgui-populate-install.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/40bb0a52ee1bc02f0e1b8f9cf9270bd3/imgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/40bb0a52ee1bc02f0e1b8f9cf9270bd3/imgui-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/40bb0a52ee1bc02f0e1b8f9cf9270bd3/imgui-populate-test.rule"
+		},
+		{
+			"file" : "D:/Desktop/leapMotionApp/leapMotionApp/build/_deps/imgui-subbuild/CMakeFiles/40bb0a52ee1bc02f0e1b8f9cf9270bd3/imgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-populate"
+		],
+		"name" : "imgui-populate"
+	}
+}

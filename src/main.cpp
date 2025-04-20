@@ -1,10 +1,6 @@
 #pragma comment(lib, "ws2_32.lib")
 #pragma comment(lib, "winmm.lib")
 #pragma comment(lib, "shell32.lib") // Needed for Shell_NotifyIcon
-#pragma comment(lib, "Dbghelp.lib") // Needed for crash dump generation
-
-// Crash dump handler
-#include "CrashDumpHandler.h"
 
 // Include our warning suppression header first
 #include "SuppressWarnings.h"
@@ -90,7 +86,6 @@ void ToggleMainWindowVisibility(HWND hWndHidden, ServiceLocator& locator);
 
 // === Application Entry Point ===
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
-    EnableCrashDumps(); // Register crash dump handler immediately
     g_hInstance = hInstance;
 
     // +++ Initialize Service Locator +++
@@ -279,8 +274,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     // --- Initialize MainAppWindow (should be created hidden now) ---
     logger->log("Initializing MainAppWindow (UI Manager)...");
     if (!uiManager->init("Leap Motion App", 1280, 800)) {
-    // Enable v-sync to cap GUI rendering to monitor refresh rate
-    SDL_GL_SetSwapInterval(1);
         logger->log("ERROR: Failed to initialize MainAppWindow (SDL window)!");
         MessageBoxW(NULL, L"Failed to create main window!", L"Window Error", MB_ICONEXCLAMATION | MB_OK);
         // Clean up tray icon etc. on failure

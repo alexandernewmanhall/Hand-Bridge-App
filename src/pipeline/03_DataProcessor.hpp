@@ -47,25 +47,24 @@ private:
     std::shared_ptr<AppLogger> logger_; 
 
     // Reverted filter states
-    std::atomic<bool> sendPalm_{true};
-    std::atomic<bool> sendWrist_{true};
-    std::atomic<bool> sendThumb_{true};
-    std::atomic<bool> sendIndex_{true};
-    std::atomic<bool> sendMiddle_{true};
-    std::atomic<bool> sendRing_{true};
-    std::atomic<bool> sendPinky_{true};
-    std::atomic<bool> sendPalmOrientation_{false};
-    std::atomic<bool> sendPalmVelocity_{false};
-    std::atomic<bool> sendPalmNormal_{false};
-    std::atomic<bool> sendVisibleTime_{false};
-    std::atomic<bool> sendFingerIsExtended_{false};
+    bool sendPalm_ = true;
+    bool sendWrist_ = true;
+    bool sendThumb_ = true;
+    bool sendIndex_ = true;
+    bool sendMiddle_ = true;
+    bool sendRing_ = true;
+    bool sendPinky_ = true;
+    bool sendPalmOrientation_ = false;
+    bool sendPalmVelocity_ = false;
+    bool sendPalmNormal_ = false;
+    bool sendVisibleTime_ = false;
+    bool sendFingerIsExtended_ = false;
     // Added pinch/grab filters
-    std::atomic<bool> sendPinchStrength_{true};
-    std::atomic<bool> sendGrabStrength_{true};  
+    bool sendPinchStrength_ = true; 
+    bool sendGrabStrength_ = true;  
 
     // State tracking for zeroing
     std::map<std::string, std::set<std::string>> lastSeenHandsPerDevice_;
-    std::mutex lastSeenHandsMutex_;
 
     // Per-hand state for velocity/gain (by handType: "left"/"right")
     struct HandMotionState {

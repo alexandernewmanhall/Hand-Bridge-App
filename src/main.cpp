@@ -393,9 +393,17 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
     logger->log("Exited main application loop.");
 
-    // Clean up resources if needed here
-    // NOTE: Tray icon cleanup is handled by WM_DESTROY in WndProc now.
-    // Explicit cleanup might be needed if loop exits differently.
+    // --- Robust Shutdown Sequence ---
+    // 1. Stop AppCore (joins LeapInput thread)
+    if (appCorePtr) {
+        logger->log("Stopping AppCore before UI shutdown...");
+        appCorePtr->stop();
+    }
+    // 2. Shutdown UI (calls SDL_Quit)
+    if (uiManager) {
+        logger->log("Shutting down UIManager...");
+        uiManager->shutdown(); // Ensure this calls MainAppWindow::shutdown() and SDL_Quit
+    }
 
     logger->log("WinMain finished.");
     return 0; // Standard exit code after loop termination

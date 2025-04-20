@@ -116,6 +116,7 @@ bool ConfigManager::loadConfig(const std::string& filename) {
         LOG("Configuration loaded successfully from " << filename);
         return true;
     } catch (const json::exception& e) {
+        (void)e;
         LOG_ERR("Error parsing config file " << filename << ": " << e.what());
         return false;
     }
@@ -142,6 +143,7 @@ bool ConfigManager::saveConfigToFile(const std::string& filename) const {
             LOG("Created config directory: " << configDir.string());
         }
     } catch (const std::filesystem::filesystem_error& e) {
+        (void)e;
         LOG_ERR("Error creating config directory " << configDir.string() << ": " << e.what());
         return false;
     }
@@ -183,6 +185,7 @@ bool ConfigManager::saveConfigToFile(const std::string& filename) const {
         LOG("Configuration saved successfully to " << filename);
         return true;
     } catch (const std::exception& e) {
+        (void)e;
         LOG_ERR("Error writing config file " << filename << ": " << e.what());
         return false;
     }

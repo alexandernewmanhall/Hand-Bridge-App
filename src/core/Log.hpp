@@ -1,10 +1,19 @@
 #pragma once
 #include <iostream>
 
-// Toggle this define to enable/disable logging globally
-#define ENABLE_LOGGING 1
+// Logging macros for development/debugging only.
+// In Release builds, logging is disabled by default unless ENABLE_LOGGING is explicitly set.
+// To enable logging in Release, define ENABLE_LOGGING as 1 before including this header.
+#ifndef ENABLE_LOGGING
+    #ifdef NDEBUG
+        #define ENABLE_LOGGING 0
+    #else
+        #define ENABLE_LOGGING 1
+    #endif
+#endif
 
 #if ENABLE_LOGGING
+    #include <iostream>
     #define LOG(msg) (std::cout << msg << std::endl)
     #define LOG_ERR(msg) (std::cerr << msg << std::endl)
 #else

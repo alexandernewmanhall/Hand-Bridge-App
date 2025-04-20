@@ -13,7 +13,8 @@
 #include <memory>
 #include "core/interfaces/ITransportSink.hpp"
 #include <functional>
-#include "core/ThreadSafeQueue.hpp"
+#include <optional>
+#include <mutex>
 #include <thread>
 #include "core/AppLogger.hpp"
 // Forward declarations
@@ -57,8 +58,11 @@ public:
     bool getSendPinkyFlag();
     bool getSendAnyFingerFlag();
 public:
-    // Set the input queue for OscMessages
-    void setInputQueue(ThreadSafeQueue<OscMessage>* queue) { inputQueue_ = queue; }
+    // Set the latest OSC message (replaces queue logic)
+    void setLatestOscMessage(const OscMessage& msg) {
+        std::lock_guard<std::mutex> lock(latestOscMessageMutex_);
+        latestOscMessage_ = msg;
+    }
     // Start the processing loop in a separate thread
     void start() {
         running_ = true;
@@ -67,15 +71,23 @@ public:
     // Stop the processing loop and join the thread
     void stop() {
         running_ = false;
-        if (inputQueue_) inputQueue_->notify_all();
         if (worker_.joinable()) worker_.join();
     }
-    // Main processing loop: pops OscMessage and sends it
+    // Main processing loop: sends only the most recent message
     void run() {
         while (running_) {
-            if (!inputQueue_) continue;
-            OscMessage msg = inputQueue_->pop();
-            sendOscMessage(msg);
+            std::optional<OscMessage> msgOpt;
+            {
+                std::lock_guard<std::mutex> lock(latestOscMessageMutex_);
+                if (latestOscMessage_) {
+                    msgOpt = std::move(latestOscMessage_);
+                    latestOscMessage_.reset();
+                }
+            }
+            if (msgOpt) {
+                sendOscMessage(*msgOpt);
+            }
+            std::this_thread::sleep_for(std::chrono::milliseconds(1)); // Prevent busy loop
         }
     }
     // Send a single OscMessage using oscSender_
@@ -100,6 +112,7 @@ private:
     std::mutex deviceHandMutex;
     std::map<uint32_t, std::string> deviceHandMap;
     std::atomic<bool> running_{false};
-    ThreadSafeQueue<OscMessage>* inputQueue_ = nullptr;
+    std::optional<OscMessage> latestOscMessage_;
+    std::mutex latestOscMessageMutex_;
     std::thread worker_;
 };

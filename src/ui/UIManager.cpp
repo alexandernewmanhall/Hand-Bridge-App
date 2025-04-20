@@ -37,8 +37,9 @@ void UIManager::shutdown() {
         return;
     }
     Log::getInstance().log("UIManager::shutdown() called.");
-    // TODO: Call the actual mainAppWindow_->shutdown();
-    // mainAppWindow_->shutdown();
+    mainAppWindow_->shutdown();
+    // If mainAppWindow_ is a smart pointer, reset it:
+    // mainAppWindow_.reset();
 }
 
 void UIManager::render() {

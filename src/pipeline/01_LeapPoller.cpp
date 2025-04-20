@@ -286,7 +286,12 @@ void LeapPoller::poll() {
 
     // Log BEFORE polling
     // LOG("LeapPoller::poll() - Attempting LeapPollConnection..."); 
-    OutputDebugStringA("LeapPoller::poll() - Attempting LeapPollConnection...\n"); // Use OutputDebugStringA
+#ifdef VERBOSE_LEAP_LOGGING
+    static int pollLogCounter = 0;
+    if (++pollLogCounter % 100 == 0) {
+        OutputDebugStringA("LeapPoller::poll() - Attempting LeapPollConnection...\n");
+    }
+#endif
 
     eLeapRS result = LeapPollConnection(connection_, 30, &msg); // Poll once with timeout (Reduced from 100ms)
     if (result != eLeapRS_Success && result != eLeapRS_Timeout) { // Ignore timeout errors, log others

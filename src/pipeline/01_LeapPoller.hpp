@@ -51,6 +51,9 @@ public:
 public:
     void setLeapInputCallback(LeapInputCallback* cb) { leapInputCallback_ = cb; }
 
+public:
+    // Getter for the underlying LEAP_CONNECTION (needed for event-driven wait)
+    LEAP_CONNECTION getConnection() const { return connection_; }
 private:
     LEAP_CONNECTION connection_;
     std::vector<DeviceInfo> devices_;

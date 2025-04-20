@@ -1,5 +1,6 @@
 #include "LeapInput.hpp"
 #include "FrameData.hpp"
+#include <LeapC.h> // For LeapC API (Hyperion/v6) -- event handle API not available
 #include <chrono>
 #include <thread>
 #include "../utils/SpscQueue.hpp"
@@ -47,17 +48,26 @@ void LeapInput::start() {
             }
 
             // Log that the callback is attempting to push
-            OutputDebugStringA(("LeapInput frame callback invoked for SN: " + frameData.deviceId + ". Attempting to push to queue.\n").c_str());
+#ifdef VERBOSE_LEAP_LOGGING
+            static int frameCbLogCounter = 0;
+            if (++frameCbLogCounter % 100 == 0) {
+                OutputDebugStringA(("LeapInput frame callback invoked for SN: " + frameData.deviceId + ". Attempting to push to queue.\n").c_str());
+            }
+#endif
 
             // --- Push frame data onto the SPSC queue using the captured shared_ptr --- 
             if (localFrameQueue) { // Check captured pointer validity
                 if (!localFrameQueue->try_push(frameData)) { // Push a copy
                      // Log or handle queue full condition
+#ifdef VERBOSE_LEAP_LOGGING
                      OutputDebugStringA("Warning: Leap SPSC frame queue full. Frame dropped.\n");
+#endif
                 }
             } else {
                  // This case should ideally not happen if initialization is correct
+#ifdef VERBOSE_LEAP_LOGGING
                  OutputDebugStringA("Error: LeapInput frame callback lambda has null queue pointer!\n");
+#endif
             }
         });
     }
@@ -104,21 +114,44 @@ void LeapInput::setDisconnectCallback(DisconnectCallback cb) {
 }
 
 void LeapInput::pollLoop() {
+#ifdef VERBOSE_LEAP_LOGGING
     OutputDebugStringA("LeapInput::pollLoop() - Thread started.\n");
+#endif
+    // --- Polling loop for LeapC Hyperion (v6) ---
+    // Event-driven waiting via event handle is not available in Hyperion/v6 SDK.
+    // Use a simple polling loop with a short sleep to reduce CPU usage.
     while (running_.load()) {
-        OutputDebugStringA("LeapInput::pollLoop() - Loop iteration start.\n");
+        poller_->poll();
+        std::this_thread::sleep_for(std::chrono::milliseconds(1));
+    }
+    // --- End polling loop ---
+    while (running_.load()) {
+#ifdef VERBOSE_LEAP_LOGGING
+        static int pollLoopLogCounter = 0;
+        if (++pollLoopLogCounter % 100 == 0) {
+            OutputDebugStringA("LeapInput::pollLoop() - Loop iteration start.\n");
+        }
+#endif
         if (poller_) {
-            OutputDebugStringA("LeapInput::pollLoop() - poller_ is valid, about to call poll().\n");
-            OutputDebugStringA("LeapInput::pollLoop() - Calling poller_->poll()...\n");
+#ifdef VERBOSE_LEAP_LOGGING
+            static int pollerValidLogCounter = 0;
+            if (++pollerValidLogCounter % 100 == 0) {
+                OutputDebugStringA("LeapInput::pollLoop() - poller_ is valid, about to call poll().\n");
+                OutputDebugStringA("LeapInput::pollLoop() - Calling poller_->poll()...\n");
+            }
+#endif
             poller_->poll();
         } else {
+#ifdef VERBOSE_LEAP_LOGGING
             OutputDebugStringA("LeapInput::pollLoop() - poller_ is NULL!\n");
+#endif
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
         }
-        // Yield/Sleep to prevent busy-waiting and high CPU usage
-        // std::this_thread::sleep_for(std::chrono::milliseconds(5));
+        // std::this_thread::sleep_for(std::chrono::milliseconds(1)); // Commented out: replaced by event-driven wait above
     }
+#ifdef VERBOSE_LEAP_LOGGING
     OutputDebugStringA("LeapInput::pollLoop() - Thread exiting.\n");
+#endif
 }
 
 // These would be called by Leap event handlers. You need to call them from the relevant Leap events.
